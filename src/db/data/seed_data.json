@@ -39,16 +39,18 @@
   ],
   "music": [
     { "name": "Forest", "source": "/assets/music/side_maps/forest/From_Past_To_Present.mp3" },
+    { "name": "Forest_2", "source": "/assets/music/side_maps/forest/City_Gates.mp3" },
     { "name": "Shop", "source": "https://example.com/Shop.mp3" },
     { "name": "Tavern", "source": "https://example.com/Tavern.mp3" },
-    { "name": "Divinity: Battle_Theme_4", "source": "/assets/music/side_maps/battle_maps/Battle_Theme_4.mp3" },
-    { "name": "Witcher 3: A_Story_You_Won't_Believe", "source": "/assets/music/side_maps/A_Story_You_Won't_Believe.mp3" }
+    { "name": "Divinity: Battle_Theme_4", "source": "/assets/music/battle_maps/Battle_Theme_4.mp3" },
+    { "name": "Witcher 3: A_Story_You_Won't_Believe", "source": "/assets/music/battle_maps/A_Story_You_Won't_Believe.mp3" },
+    { "name": "Skyrim", "source": "/assets/music/battle_maps/Skyrim.mp3" }
   ],
   "scenes": [
-  { "name": "Default", "description": "A silent little Village", "fight": false, "graphics_ground_id": 1, "graphics_wall_id": 1, "music_id": [1] },
+  { "name": "Default", "description": "A silent little Village", "fight": false, "graphics_ground_id": 1, "graphics_wall_id": 1, "music_id": [1, 2] },
   { "name": "Shop", "description": "A small shop", "fight": false, "graphics_ground_id": 2, "graphics_wall_id": 3, "music_id": [3] },
   { "name": "Tavern", "description": "A warm place to rest", "fight": false, "graphics_ground_id": 3, "graphics_wall_id": 4, "music_id": [4] },
-  { "name": "Fight 1", "description": "A spooky Chamber", "fight": true, "battlemaps_id": 1, "graphics_wall_id": 2, "music_id": [4, 5] },
+  { "name": "Fight 1", "description": "A spooky Chamber", "fight": true, "battlemaps_id": 1, "graphics_wall_id": 2, "music_id": [5, 6, 7] },
   { "name": "Fight 2", "description": "A spooky Chamber", "fight": true, "battlemaps_id": 2, "graphics_wall_id": 2, "music_id": [2] },
   { "name": "Fight 3", "description": "A lonely Forest", "fight": true, "battlemaps_id": 3, "graphics_wall_id": 2, "music_id": [2] },
   { "name": "Fight 4", "description": "A spooky Chamber", "fight": true, "battlemaps_id": 4, "graphics_wall_id": 2, "music_id": [2] },
